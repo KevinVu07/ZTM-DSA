@@ -9,6 +9,10 @@ public class ReverseString {
     }
 
     public static String reverseWord(String word) {
+        if (word.length() < 2) {
+            return word;
+        }
+
         String reversedWord = "";
         for (int i = 0; i < word.length(); i++) {
             char letter = word.charAt(i);
