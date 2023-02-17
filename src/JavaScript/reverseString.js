@@ -17,3 +17,11 @@ function reverse(str) {
 }
 
 reverse("Kevin");
+
+function reverse2(str) {
+    let reversedWord = str.split('').reverse().join('');
+    console.log(reversedWord);
+    return reversedWord;
+}
+
+reverse2("Kevin");
