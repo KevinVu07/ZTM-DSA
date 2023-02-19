@@ -11,7 +11,6 @@ public class TwoSum {
         for (int num : twoSum) {
             System.out.println(num);
         }
-
     }
 
     public static int[] findTwoSum(int[] nums, int target) {
