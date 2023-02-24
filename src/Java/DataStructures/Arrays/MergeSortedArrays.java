@@ -1,6 +1,4 @@
-package Java.Arrays;
-
-import java.util.Arrays;
+package Java.DataStructures.Arrays;
 
 // given 2 sorted arrays, merge 2 arrays into 1 sorted array
 public class MergeSortedArrays {
@@ -25,6 +23,7 @@ public class MergeSortedArrays {
                 mergedArray[i] = arr2[k];
                 k++;
             }
+//            Character.isLetterOrDigit()
         }
 
         return mergedArray;

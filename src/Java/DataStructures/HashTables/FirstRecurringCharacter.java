@@ -1,4 +1,4 @@
-package Java.HashTables;
+package Java.DataStructures.HashTables;
 
 // given an array, identify and return the first recurring character/number
 
