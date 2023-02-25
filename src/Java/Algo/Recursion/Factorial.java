@@ -9,7 +9,7 @@ public class Factorial {
     }
 
     public static int findFactorialRecursive(int number) {
-        if (number == 1) return 1;
+        if (number <= 2) return number;
         int factorialNumber = number * findFactorialRecursive(number - 1);
         return factorialNumber;
     }
